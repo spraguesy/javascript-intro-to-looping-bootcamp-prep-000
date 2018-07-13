@@ -22,7 +22,8 @@ function whileLoop (num) {
 function doWhileLoop (arr) {
   do {
     arr.pop();
-  } while (arr.length > 0 || maybeTrue())
+  } while (arr.length > 0 || maybeTrue());
+  return arr
 }
 
 function maybeTrue() {
